@@ -12,9 +12,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 /**
- * The FlightFilterApp class represents an example of using flight filters for different scenarios.
+ * The Main class represents an example of using flight filters for different scenarios.
  */
-public class FlightFilterApp {
+public class Main {
     public static void main(String[] args) {
         // Create a list of flights
         List<Flight> flights = FlightBuilder.createFlights();
